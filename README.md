@@ -28,17 +28,25 @@ Layanan ini merupakan sebuah microservice yang bertujuan untuk melakukan pendata
 | deskripsi | String    | Deskripsi produk    |
 | harga     | Float     | Harga produk        |
 
+#### Tabel Users
+| Kolom     | Tipe Data | Deskripsi           |
+|-----------|-----------|---------------------|
+| id        | Integer   | Primary Key         |
+| username  | String    | Nama akun pengguna  |
+| email     | String    | Email pengguna      |
+| password  | String    | Password Pengguna   |
+
 ## Backend dan Frontend
-- **Backend**: Menggunakan FastAPI untuk menyediakan layanan RESTful API.
+- **Backend**: Menggunakan FastAPI untuk menyediakan layanan API.
 - **Frontend**: Menggunakan React untuk membuat antarmuka pengguna yang interaktif.
 
 ## Tampilan Website
 Website ini memiliki beberapa halaman utama, termasuk:
 - **Login**: Halaman untuk login ke sistem.
 - **Register**: Halaman untuk mendaftar sebagai pengguna baru.
-- **Pendataan Pelanggan**: Halaman untuk melihat dan menambahkan data pelanggan.
-- **Pendataan Pemesanan Jasa**: Halaman untuk melihat dan menambahkan pemesanan jasa pengangkutan sampah.
-- **Pendataan Produk**: Halaman untuk melihat dan menambahkan produk daur ulang.
+- **Pendataan Pelanggan**: Halaman untuk melihat, menyunting, menambahkan, dan menghapus data pelanggan.
+- **Pendataan Pemesanan Jasa**: Halaman untuk melihat, menyunting, menambahkan, dan menghapus pemesanan jasa pengangkutan sampah.
+- **Pendataan Produk**: Halaman untuk melihat, menyunting, menambahkan, dan menghapus produk daur ulang.
 
 ## Link dan Informasi Tambahan
 - **Swagger Dokumentasi Layanan Ini**: [FAST API SWAGGER - Recyco (MAIN)](https://python123-scxaic-production.up.railway.app/docs)
